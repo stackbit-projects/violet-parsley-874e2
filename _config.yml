@@ -1,0 +1,34 @@
+title: Blog Title
+author: Blog Author
+description: 'Made with <b style="color: #f45;">&lt;3</b>'
+permalink: '/:title/'
+lang: en
+excerpt_separator: |+
+
+
+
+date_format: '%B %d, %Y'
+show_social: true
+show_excerpts: false
+show_frame: false
+show_sidebar: false
+navigation:
+  - file: index.html
+    icon: home
+  - file: README.md
+    icon: address-card
+external:
+  - title: Mail
+    icon: envelope
+    url: 'mailto:niklasbuschmann@users.noreply.github.com'
+  - title: Github
+    icon: github
+    url: 'https://github.com/niklasbuschmann/contrast'
+  - title: Subscribe
+    icon: rss
+    url: /feed.xml
+comments: null
+plugins:
+  - jekyll-feed
+baseurl: ''
+url: ''
